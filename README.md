@@ -66,3 +66,16 @@
         modified:   .gitignore
         modified:   README.md
         modified:   config/settings.py
+
+
+#### 3.2 Run migrate to create the database
+
+        > (venv3932) λ python manage.py migrate
+        
+        Operations to perform:
+          Apply all migrations: admin, auth, contenttypes, sessions
+        Running migrations:
+          Applying contenttypes.0001_initial... OK
+          Applying auth.0001_initial... OK
+          Applying admin.0001_initial... OK
+          ...
