@@ -96,7 +96,14 @@
         modified:   README.md
         modified:   config/settings.py
 
-        
+
+#### 7.2 Configuring static files
+
+        modified:   README.md
+        modified:   config/settings.py
+
+
+
 
 
 
