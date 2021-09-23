@@ -86,4 +86,17 @@
         modified:   README.md
 
 
+###----------------------------------------------------------------------
+### 7. SETTING UP TEMPLATES AND STATIC FILES
+###----------------------------------------------------------------------
+
+
+#### 7.1 Create templates dir and Activating django templates
+
+        modified:   README.md
+        modified:   config/settings.py
+
+        
+
+
 
