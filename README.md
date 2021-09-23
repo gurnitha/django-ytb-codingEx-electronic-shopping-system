@@ -38,7 +38,7 @@
         E:\workspace\django\ECOMMERCE\ytb-codingEx-electronic-shopping-system\src (master)
         (venv3932) λ mkdir apps\store
         (venv3932) λ python manage.py startapp store apps\store 
-        
+
         modified:   README.md
         new file:   apps/store/__init__.py
         new file:   apps/store/admin.py
@@ -47,3 +47,10 @@
         new file:   apps/store/models.py
         new file:   apps/store/tests.py
         new file:   apps/store/views.py      
+
+
+#### 2.3 Register the app 'store' to the project 'config/settings.py'
+
+        modified:   README.md
+        modified:   apps/store/apps.py
+        modified:   config/settings.py 
