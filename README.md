@@ -79,3 +79,11 @@
           Applying auth.0001_initial... OK
           Applying admin.0001_initial... OK
           ...
+
+
+#### 3.3 Create superuser and run the local server
+
+        modified:   README.md
+
+
+
