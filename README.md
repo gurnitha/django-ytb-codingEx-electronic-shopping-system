@@ -31,3 +31,19 @@
         new file:   config/urls.py
         new file:   config/wsgi.py
         new file:   manage.py
+
+
+#### 2.2 Create django app 'apps/store'
+
+        E:\workspace\django\ECOMMERCE\ytb-codingEx-electronic-shopping-system\src (master)
+        (venv3932) λ mkdir apps\store
+        (venv3932) λ python manage.py startapp store apps\store 
+        
+        modified:   README.md
+        new file:   apps/store/__init__.py
+        new file:   apps/store/admin.py
+        new file:   apps/store/apps.py
+        new file:   apps/store/migrations/__init__.py
+        new file:   apps/store/models.py
+        new file:   apps/store/tests.py
+        new file:   apps/store/views.py      
