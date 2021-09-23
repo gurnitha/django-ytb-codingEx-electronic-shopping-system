@@ -54,3 +54,15 @@
         modified:   README.md
         modified:   apps/store/apps.py
         modified:   config/settings.py 
+
+
+###----------------------------------------------------------------------
+### 3. SETTING UP DATABASE
+###----------------------------------------------------------------------
+
+
+#### 3.1 Rename default sqlite3 database
+
+        modified:   .gitignore
+        modified:   README.md
+        modified:   config/settings.py
