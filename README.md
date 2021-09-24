@@ -196,3 +196,9 @@
         modified:   apps/store/admin.py
         new file:   apps/store/migrations/0007_auto_20210924_1050.py
         modified:   apps/store/models.py
+
+
+#### 8.6 Using admin TabularInline attribute to making Product to have many images
+
+        modified:   README.md
+        modified:   apps/store/admin.py
