@@ -188,3 +188,11 @@
         modified:   apps/store/admin.py
         new file:   apps/store/migrations/0006_images.py
         modified:   apps/store/models.py
+
+
+#### 8.5 Create Tag model
+
+        modified:   README.md
+        modified:   apps/store/admin.py
+        new file:   apps/store/migrations/0007_auto_20210924_1050.py
+        modified:   apps/store/models.py

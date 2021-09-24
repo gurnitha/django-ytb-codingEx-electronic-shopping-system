@@ -80,3 +80,9 @@ class Images(models.Model):
 
 	class Meta:
 		verbose_name_plural = 'Images'
+
+		
+# Model:Tag
+class Tag(models.Model):
+	name = models.CharField(max_length=200)
+	product = models.ForeignKey(Product,on_delete=models.CASCADE)

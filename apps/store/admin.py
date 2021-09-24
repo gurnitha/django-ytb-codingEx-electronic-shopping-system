@@ -10,7 +10,8 @@ from apps.store.models import (
 	Color,
 	FilterPrice,
 	Product,
-	Images)
+	Images,
+	Tag)
 
 # Register your models here.
 admin.site.register(Category)
@@ -19,3 +20,4 @@ admin.site.register(Color)
 admin.site.register(FilterPrice)
 admin.site.register(Product)
 admin.site.register(Images)
+admin.site.register(Tag)
