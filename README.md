@@ -117,4 +117,8 @@
         new file:   templates/base/base.html
 
 
+#### 7.5 Adding html template to base.html 
+
+        modified:   README.md
+        modified:   templates/base/base.html
 
