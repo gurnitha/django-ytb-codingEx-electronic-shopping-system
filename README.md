@@ -122,3 +122,11 @@
         modified:   README.md
         modified:   templates/base/base.html
 
+
+#### 7.6 Adding static files
+
+        modified:   README.md
+        new file:   static/assets/css/animate.min.css
+        ...
+        new file:   static/assets/css/style.css
+
