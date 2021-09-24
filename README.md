@@ -180,3 +180,11 @@
         new file:   apps/store/migrations/0005_auto_20210924_1035.py
         modified:   apps/store/models.py
         modified:   config/settings.py
+
+
+#### 8.4 Create Images model
+
+        modified:   README.md
+        modified:   apps/store/admin.py
+        new file:   apps/store/migrations/0006_images.py
+        modified:   apps/store/models.py

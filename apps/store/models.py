@@ -71,3 +71,12 @@ class Product(models.Model):
 		if self.unique_id is None and self.created_date and self.id:
 			self.unique_id = self.created_date.strftime('75%Y%m%d23' + str(self.id))
 		return super().save(*args,**kwargs)
+
+
+# Model:Image
+class Images(models.Model):
+	image = models.ImageField(upload_to='product/images')
+	product = models.ForeignKey(Product,on_delete=models.CASCADE)
+
+	class Meta:
+		verbose_name_plural = 'Images'
