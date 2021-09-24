@@ -149,3 +149,17 @@
         modified:   config/views.py
         modified:   templates/base/base.html
         new file:   templates/base/index.html
+
+
+###----------------------------------------------------------------------
+### 8. MODELS
+###----------------------------------------------------------------------
+
+
+#### 8.1 Create models: Category, Brand, Color and FilterPrice
+
+        modified:   README.md
+        modified:   apps/store/admin.py
+        new file:   apps/store/migrations/0001_initial.py
+        new file:   apps/store/migrations/0002_rename_filter_price_filterprice.py
+        modified:   apps/store/models.py
