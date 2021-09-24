@@ -11,7 +11,7 @@ class Category(models.Model):
 
 	class Meta:
 		verbose_name_plural = 'Categories'
-		
+
 # Model:Brand
 class Brand(models.Model):
 	name = models.CharField(max_length=200)
@@ -27,7 +27,6 @@ class Color(models.Model):
 class FilterPrice(models.Model):
 	FILTER_PRICE = (
 		('1 TO 50','1 TO 50'),
-		('50 TO 100','50 TO 100'),
 		('50 TO 100','50 TO 100'),
 		('100 TO 200','100 TO 200'),
 		('200 TO 300','200 TO 300'),

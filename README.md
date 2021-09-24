@@ -163,3 +163,10 @@
         new file:   apps/store/migrations/0001_initial.py
         new file:   apps/store/migrations/0002_rename_filter_price_filterprice.py
         modified:   apps/store/models.py
+
+
+#### 8.2 Modified FilterPrice model
+
+        modified:   README.md
+        new file:   apps/store/migrations/0003_auto_20210924_0952.py
+        modified:   apps/store/models.py
