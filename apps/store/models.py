@@ -13,15 +13,25 @@ class Category(models.Model):
 	class Meta:
 		verbose_name_plural = 'Categories'
 
+	def __str__(self):
+		return self.name
+
+
 # Model:Brand
 class Brand(models.Model):
 	name = models.CharField(max_length=200)
+
+	def __str__(self):
+		return self.name
 
 
 # Model:Color
 class Color(models.Model):
 	name = models.CharField(max_length=200)
 	code = models.CharField(max_length=50)
+
+	def __str__(self):
+		return self.name
 
 
 # Model:Filter_Price
@@ -39,6 +49,9 @@ class FilterPrice(models.Model):
 		('900 TO 1000','900 TO 1000'),
 	)
 	price = models.CharField(choices=FILTER_PRICE, max_length=60)
+
+	def __str__(self):
+		return self.price
 
 
 # Model:Product
@@ -72,6 +85,9 @@ class Product(models.Model):
 			self.unique_id = self.created_date.strftime('75%Y%m%d23' + str(self.id))
 		return super().save(*args,**kwargs)
 
+	def __str__(self):
+		return self.name
+
 
 # Model:Image
 class Images(models.Model):
@@ -81,8 +97,14 @@ class Images(models.Model):
 	class Meta:
 		verbose_name_plural = 'Images'
 
-		
+	def __str__(self):
+		return self.image
+
+
 # Model:Tag
 class Tag(models.Model):
 	name = models.CharField(max_length=200)
 	product = models.ForeignKey(Product,on_delete=models.CASCADE)
+
+	def __str__(self):
+		return self.name

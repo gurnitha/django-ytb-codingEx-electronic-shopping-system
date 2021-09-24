@@ -202,3 +202,9 @@
 
         modified:   README.md
         modified:   apps/store/admin.py
+
+
+#### 8.7 Defining string method for the models
+
+        modified:   README.md
+        modified:   apps/store/models.py
