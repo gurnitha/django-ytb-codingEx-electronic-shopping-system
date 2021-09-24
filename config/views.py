@@ -8,3 +8,8 @@ from django.shortcuts import render, redirect
 # Base template
 def BASE(request):
 	return render(request, 'base/base.html')
+
+
+# Views: HomePage
+def HomePage(request):
+	return render(request, 'base/index.html')

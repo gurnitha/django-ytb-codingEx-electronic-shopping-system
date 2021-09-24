@@ -130,3 +130,22 @@
         ...
         new file:   static/assets/css/style.css
 
+
+#### 7.7 Loding static files to base template 
+
+        modified:   README.md
+        modified:   static/assets/css/bootstrap.min.css
+        modified:   static/assets/css/jquery-ui.min.css
+        modified:   static/assets/css/plugins.min.css
+        modified:   static/assets/css/style.min.css
+        modified:   static/assets/css/swiper-bundle.min.css
+        modified:   templates/base/base.html
+
+
+#### 7.8 Template inheritance
+
+        modified:   README.md
+        modified:   config/urls.py
+        modified:   config/views.py
+        modified:   templates/base/base.html
+        new file:   templates/base/index.html
