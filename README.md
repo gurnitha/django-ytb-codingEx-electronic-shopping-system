@@ -109,4 +109,12 @@
         modified:   config/urls.py
 
 
+#### 7.4 Create base template
+
+        modified:   README.md
+        modified:   config/urls.py
+        new file:   config/views.py
+        new file:   templates/base/base.html
+
+
 
