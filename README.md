@@ -103,7 +103,10 @@
         modified:   config/settings.py
 
 
+#### 7.3 Serving files uploaded by a user during development
 
+        modified:   README.md
+        modified:   config/urls.py
 
 
 
