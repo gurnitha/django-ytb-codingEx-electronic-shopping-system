@@ -170,3 +170,13 @@
         modified:   README.md
         new file:   apps/store/migrations/0003_auto_20210924_0952.py
         modified:   apps/store/models.py
+
+
+#### 8.3 Create Product model and add relationship with Category, Brand, Color and FilterPrice
+
+        modified:   README.md
+        modified:   apps/store/admin.py
+        new file:   apps/store/migrations/0004_product.py
+        new file:   apps/store/migrations/0005_auto_20210924_1035.py
+        modified:   apps/store/models.py
+        modified:   config/settings.py
