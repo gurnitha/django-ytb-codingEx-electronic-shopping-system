@@ -62,7 +62,7 @@ class Product(models.Model):
 	STATUS =  (('Publish','Publish'),('Draft','Draft'))
 
 	unique_id = models.CharField(unique=True,max_length=200,null=True,blank=True)
-	image = models.ImageField(upload_to='product/images')
+	image = models.ImageField(upload_to='media/product/images')
 	name = models.CharField(max_length=200)
 	price = models.DecimalField(max_digits=10,decimal_places=2)
 	condition = models.CharField(choices=CONDITION,max_length=100, default='New')
@@ -91,14 +91,14 @@ class Product(models.Model):
 
 # Model:Image
 class Images(models.Model):
-	image = models.ImageField(upload_to='product/images')
+	image = models.ImageField(upload_to='media/product/images')
 	product = models.ForeignKey(Product,on_delete=models.CASCADE)
 
 	class Meta:
 		verbose_name_plural = 'Images'
 
-	def __str__(self):
-		return self.image
+	# def __str__(self):
+	# 	return self.product
 
 
 # Model:Tag

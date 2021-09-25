@@ -208,3 +208,11 @@
 
         modified:   README.md
         modified:   apps/store/models.py
+
+
+#### 8.8 Defining path for media files
+
+        modified:   README.md
+        modified:   apps/store/models.py
+        modified:   config/settings.py
+        modified:   config/urls.py
