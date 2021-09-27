@@ -252,3 +252,9 @@
         modified:   config/urls.py
         modified:   templates/base/base.html
         new file:   templates/store/product-list.html
+
+
+### 10.2 Adding html template to product-list page and load static files
+
+        modified:   README.md
+        modified:   templates/store/product-list.html
