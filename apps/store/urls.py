@@ -9,5 +9,5 @@ from apps.store.views import ProductList
 app_name = 'store'
 
 urlpatterns = [
-    path('store/product-list', ProductList, name='product_list'),  
+    path('products/', ProductList, name='product_list'),  
 ]

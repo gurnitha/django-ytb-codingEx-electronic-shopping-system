@@ -32,7 +32,14 @@ def ProductList(request):
 
 	# Brand
 	brands = Brand.objects.all()
-	print(brands)
+
+	# Products-By-Category
+	cat_id = request.GET.get('category')
+	if cat_id:
+		product_list = Product.objects.filter(category=cat_id)
+	else:
+		product_list = Product.objects.filter(status='Publish')
+		
 	context = {
 		'product_list_objects': product_list,
 		'category_objects': categories,

@@ -295,3 +295,16 @@
         modified:   README.md
         modified:   apps/store/views.py
         modified:   templates/store/product-list.html
+
+
+###----------------------------------------------------------------------
+### 11. FILTERING PRODUCTS DISPLAY
+###----------------------------------------------------------------------
+
+
+#### 11.1 Filtering display of the products based on a category (products-by-category)
+
+        modified:   README.md
+        modified:   apps/store/urls.py
+        modified:   apps/store/views.py
+        modified:   templates/store/product-list.html
