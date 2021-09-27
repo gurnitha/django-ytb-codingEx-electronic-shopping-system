@@ -258,3 +258,13 @@
 
         modified:   README.md
         modified:   templates/store/product-list.html
+
+
+
+### 10.3 Insert, retrieving and displaying products from db to product-list page
+
+        modified:   README.md
+        modified:   apps/store/views.py
+        new file:   media/media/product/images/5.webp
+        ...
+        modified:   templates/store/product-list.html
