@@ -217,7 +217,8 @@
                                 <div class="sidebar-widget-color">
                                     <ul class="d-flex flex-wrap">
                                     	{% for color_object in color_objects %}
-                                        <li><a href="#" style="background-color: {{color_object.code}};"></a></li>
+                                        <li>
+                                        	<a href="/products/?color={{color_object.id}}" style="background-color: {{color_object.code}};"></a></li>
                                     	{% endfor %}
                                     </ul>
                                 </div>

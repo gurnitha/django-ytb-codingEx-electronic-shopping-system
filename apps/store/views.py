@@ -34,15 +34,20 @@ def ProductList(request):
 	brands = Brand.objects.all()
 
 	# Products-By-Category
-	cat_id 			= request.GET.get('category')
+	cat_id 	= request.GET.get('category')
 	# Products-By-Price
 	filter_price_id = request.GET.get('filter_price')
+	# Products-By-Color
+	color_id = request.GET.get('color')
 
 	if cat_id:
 		product_list = Product.objects.filter(category=cat_id, status='Publish')
 
 	elif filter_price_id:
 		product_list = Product.objects.filter(filter_price=filter_price_id, status='Publish')
+
+	elif color_id:
+		product_list = Product.objects.filter(color=color_id, status='Publish')
 
 	else:
 		product_list = Product.objects.filter(status='Publish')
