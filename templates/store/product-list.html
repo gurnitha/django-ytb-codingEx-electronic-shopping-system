@@ -206,20 +206,9 @@
                                 <h4 class="sidebar-title">Color</h4>
                                 <div class="sidebar-widget-color">
                                     <ul class="d-flex flex-wrap">
-                                        <li><a href="#" class="color-1"></a></li>
-                                        <li><a href="#" class="color-2"></a></li>
-                                        <li><a href="#" class="color-3"></a></li>
-                                        <li><a href="#" class="color-4"></a></li>
-                                        <li><a href="#" class="color-5"></a></li>
-                                        <li><a href="#" class="color-6"></a></li>
-                                        <li><a href="#" class="color-7"></a></li>
-                                        <li><a href="#" class="color-8"></a></li>
-                                        <li><a href="#" class="color-9"></a></li>
-                                        <li><a href="#" class="color-10"></a></li>
-                                        <li><a href="#" class="color-11"></a></li>
-                                        <li><a href="#" class="color-12"></a></li>
-                                        <li><a href="#" class="color-13"></a></li>
-                                        <li><a href="#" class="color-14"></a></li>
+                                    	{% for color_object in color_objects %}
+                                        <li><a href="#" style="background-color: {{color_object.code}};"></a></li>
+                                    	{% endfor %}
                                     </ul>
                                 </div>
                             </div>

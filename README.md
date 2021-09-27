@@ -281,3 +281,10 @@
         modified:   README.md
         modified:   apps/store/views.py
         modified:   templates/store/product-list.html
+
+
+### 10.6 Retrieving and displaying Color on sidebar of the product-list page
+
+        modified:   README.md
+        modified:   apps/store/views.py
+        modified:   templates/store/product-list.html
