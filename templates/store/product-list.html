@@ -181,27 +181,10 @@
                                 <h4 class="sidebar-title">Top Categories</h4>
                                 <div class="sidebar-widget-category">
                                     <ul>
-                                        <li><a href="#" class="selected m-0"> All
-                                            <span>(65)</span> </a>
-                                        </li>
-                                        <li><a href="#" class=""> Computer
-                                            <span>(12)</span> </a>
-                                        </li>
-                                        <li><a href="#" class=""> Covid-19
-                                            <span>(22)</span> </a>
-                                        </li>
-                                        <li><a href="#" class=""> Electronics
-                                            <span>(19)</span> </a>
-                                        </li>
-                                        <li><a href="#" class=""> Frame Sunglasses
-                                            <span>(17)</span> </a>
-                                        </li>
-                                        <li><a href="#" class=""> Furniture
-                                            <span>(7)</span> </a>
-                                        </li>
-                                        <li><a href="#" class=""> Genuine Leather
-                                            <span>(9)</span> </a>
-                                        </li>
+                                        <li><a href="#" class="selected m-0">All Categories (xx)</span> </a></li>
+                                        {% for category in category_objects %}
+                                        <li><a href="#" class="">{{category.name}}<span>(x)</span> </a></li>
+                                        {% endfor %}
                                     </ul>
                                 </div>
                             </div>

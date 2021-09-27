@@ -268,3 +268,11 @@
         new file:   media/media/product/images/5.webp
         ...
         modified:   templates/store/product-list.html
+
+
+
+### 10.4 Retrieving and displaying categories on sidebar of the product-list page
+
+        modified:   README.md
+        modified:   apps/store/views.py
+        modified:   templates/store/product-list.html
