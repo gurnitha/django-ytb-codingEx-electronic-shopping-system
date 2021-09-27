@@ -216,3 +216,17 @@
         modified:   apps/store/models.py
         modified:   config/settings.py
         modified:   config/urls.py
+
+
+###----------------------------------------------------------------------
+### 9. RETRIEVING AND DISPLAYING PRODUCTS
+###----------------------------------------------------------------------
+
+
+### 9.1 Retrieving and displaying products to Home page
+
+        modified:   README.md
+        modified:   config/views.py
+        new file:   media/media/product/images/1.webp
+        ...
+        modified:   templates/base/index.html

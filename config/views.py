@@ -3,6 +3,9 @@
 # Django modules
 from django.shortcuts import render, redirect
 
+# Locals
+from apps.store.models import Product  
+
 # Create your views here.
 
 # Base template
@@ -12,4 +15,8 @@ def BASE(request):
 
 # Views: HomePage
 def HomePage(request):
-	return render(request, 'base/index.html')
+	products = Product.objects.all()
+	context = {
+		'product_objects':products,
+	}
+	return render(request, 'base/index.html', context)
