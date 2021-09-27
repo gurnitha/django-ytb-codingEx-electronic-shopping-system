@@ -203,7 +203,9 @@
                                     <div class="price-slider-amount">
                                         <input type="text" id="amount" class="p-0 h-auto lh-1" name="price" placeholder="Add Your Price" />
                                         {% for filter_price in filter_price_objects %}
-                                        <li><a href="#" class="">{{filter_price.price}}</a></li>
+                                        <li>
+                                        	<a href="/products/?filter_price={{filter_price.id}}" class="">{{filter_price.price}}</a>
+                                        </li>
                                         {% endfor %}
                                     </div>
                                     <div id="slider-range"></div>

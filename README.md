@@ -314,3 +314,10 @@
 
         modified:   README.md
         modified:   templates/store/product-list.html 
+
+
+#### 11.3 Filtering display of the products based on a filter_price (products-by-filter-price)
+
+        modified:   README.md
+        modified:   apps/store/views.py
+        modified:   templates/store/product-list.html
