@@ -230,3 +230,10 @@
         new file:   media/media/product/images/1.webp
         ...
         modified:   templates/base/index.html
+
+
+### 9.2 Filtering display products WHERE status is publish
+
+        modified:   README.md
+        modified:   config/views.py
+        new file:   media/media/product/images/4.webp

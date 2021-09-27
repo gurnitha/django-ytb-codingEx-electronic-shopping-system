@@ -15,7 +15,8 @@ def BASE(request):
 
 # Views: HomePage
 def HomePage(request):
-	products = Product.objects.all()
+	# products = Product.objects.all()
+	products = Product.objects.filter(status='Publish')
 	context = {
 		'product_objects':products,
 	}
