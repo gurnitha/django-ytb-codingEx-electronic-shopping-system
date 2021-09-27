@@ -2,7 +2,7 @@
 
 # Django modules
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from django.conf.urls.static import static
 from django.conf import settings
 
@@ -16,6 +16,9 @@ urlpatterns = [
 
     # Home views: http://localhost:8000/
     path('', views.HomePage, name='homepage'),
+
+    # Product List views:
+    path('', include('apps.store.urls', namespace='store')),
 
     # Admin
     path('admin/', admin.site.urls),

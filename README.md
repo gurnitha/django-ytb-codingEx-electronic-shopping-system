@@ -237,3 +237,18 @@
         modified:   README.md
         modified:   config/views.py
         new file:   media/media/product/images/4.webp
+
+
+###----------------------------------------------------------------------
+### 10. PRODUCT LIST PAGE: RETRIEVING AND DISPLAYING PRODUCTS
+###----------------------------------------------------------------------
+
+
+### 10.1 Create basic Product_List page (Templates, Views and Urls)
+
+        modified:   README.md
+        new file:   apps/store/urls.py
+        modified:   apps/store/views.py
+        modified:   config/urls.py
+        modified:   templates/base/base.html
+        new file:   templates/store/product-list.html
