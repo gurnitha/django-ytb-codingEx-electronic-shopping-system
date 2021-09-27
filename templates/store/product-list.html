@@ -236,11 +236,10 @@
                                 <h4 class="sidebar-title">Brands</h4>
                                 <div class="sidebar-widget-brand">
                                     <ul>
-                                        <li><a href="#" class="selected m-0"> Lakmeeto<span>(65)</span> </a></li>
-                                        <li><a href="#" class=""> Beautifill <span>(14)</span></a></li>
-                                        <li><a href="#" class=""> Made In GD <span>(21)</span></a></li>
-                                        <li><a href="#" class=""> Pecifico <span>(16)</span></a></li>
-                                        <li><a href="#" class=""> Xlovgtir<span>(12)</span></a></li>
+                                        <li><a href="#" class="">All Brands<span>(xx)</span></a></li>
+                                    	{% for brand_object in brand_objects %}
+                                        <li><a href="#" class="">{{brand_object.name}}<span>(x)</span></a></li>
+                                    	{% endfor %}
                                     </ul>
                                 </div>
                             </div>

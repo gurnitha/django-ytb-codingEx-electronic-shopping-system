@@ -288,3 +288,10 @@
         modified:   README.md
         modified:   apps/store/views.py
         modified:   templates/store/product-list.html
+
+
+### 10.7 Retrieving and displaying Brand on sidebar of the product-list page
+
+        modified:   README.md
+        modified:   apps/store/views.py
+        modified:   templates/store/product-list.html

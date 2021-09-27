@@ -8,7 +8,9 @@ from apps.store.models import (
 	Product, 
 	Category, 
 	FilterPrice,
-	Color,) 
+	Color,
+	Brand,
+	) 
 
 # Create your views here.
 
@@ -28,10 +30,14 @@ def ProductList(request):
 	# Color
 	colors = Color.objects.all()
 
+	# Brand
+	brands = Brand.objects.all()
+	print(brands)
 	context = {
 		'product_list_objects': product_list,
 		'category_objects': categories,
 		'filter_price_objects': filter_prices,
 		'color_objects':colors,
+		'brand_objects':brands,
 	}
 	return render(request, 'store/product-list.html', context)
