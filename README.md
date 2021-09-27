@@ -260,7 +260,6 @@
         modified:   templates/store/product-list.html
 
 
-
 ### 10.3 Insert, retrieving and displaying products from db to product-list page
 
         modified:   README.md
@@ -270,8 +269,14 @@
         modified:   templates/store/product-list.html
 
 
-
 ### 10.4 Retrieving and displaying categories on sidebar of the product-list page
+
+        modified:   README.md
+        modified:   apps/store/views.py
+        modified:   templates/store/product-list.html
+
+
+### 10.5 Retrieving and displaying FilterPrice on sidebar of the product-list page
 
         modified:   README.md
         modified:   apps/store/views.py
