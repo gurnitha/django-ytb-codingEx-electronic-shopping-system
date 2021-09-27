@@ -308,3 +308,9 @@
         modified:   apps/store/urls.py
         modified:   apps/store/views.py
         modified:   templates/store/product-list.html
+
+
+#### 11.2 Un-filtering display of the products/display all products
+
+        modified:   README.md
+        modified:   templates/store/product-list.html 
