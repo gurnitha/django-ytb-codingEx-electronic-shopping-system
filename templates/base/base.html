@@ -407,7 +407,7 @@
                                     </div>
                                     <span class="read-review"><a class="reviews" href="#">( 2 Review )</a></span>
                                 </div>
-                                <p class="mt-30px">Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmll tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mill veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exet commodo consequat. Duis aute irure dolor</p>
+                                <p class="mt-30px">{{product.description|truncatewords:50}}/p>
                                 <div class="pro-details-categories-info pro-details-same-style d-flex m-0">
                                     <span>SKU:</span>
                                     <ul class="d-flex">
@@ -420,10 +420,7 @@
                                     <span>Categories: </span>
                                     <ul class="d-flex">
                                         <li>
-                                            <a href="#">Smart Device, </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">ETC</a>
+                                            <a href="#">{{product.category}}</a>
                                         </li>
                                     </ul>
                                 </div>

@@ -426,4 +426,10 @@
 
         modified:   README.md
         modified:   templates/base/base.html
-        modified:   templates/base/modal-actions.html
+        modified:   templates/base/modal-actions.htm
+
+
+#### 13.5 Modal 3 - Loading product description and category
+
+        modified:   README.md
+        modified:   templates/base/base.html
