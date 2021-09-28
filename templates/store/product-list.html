@@ -77,6 +77,12 @@
                                         		Sort By New
                                         	</a>
                                         </li>
+                                        <li>
+                                        	<a class="dropdown-item" 
+                                        		href="/products/{% for i in product_list_objects %}?old-product={{i.id}}{% endfor %}">
+                                        		Sort By Old
+                                        	</a>
+                                        </li>
                                     </ul>
                                 </div>
                                 <!-- Single Wedge Start -->
@@ -97,7 +103,7 @@
                                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 mb-30px">
                                                     <div class="product">
                                                         <span class="badges">
-                                                        <span class="new">New</span>
+                                                        <span class="new">{{product_list.condition}}</span>
                                                         </span>
                                                         <div class="thumb">
                                                             <a href="single-product.html" class="image">

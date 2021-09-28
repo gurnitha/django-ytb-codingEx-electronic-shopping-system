@@ -51,6 +51,8 @@ def ProductList(request):
 	price_high_to_low = request.GET.get('price-high-to-low')
 	# Products-By-NewProduct
 	new_product_id = request.GET.get('new-product')
+	# Products-By-NewProduct
+	old_product_id = request.GET.get('old-product')
 
 	if cat_id:
 		product_list = Product.objects.filter(category=cat_id, status='Publish')
@@ -78,6 +80,9 @@ def ProductList(request):
 
 	elif new_product_id:
 		product_list = Product.objects.filter(status='Publish', condition='New').order_by('-id')
+
+	elif old_product_id:
+		product_list = Product.objects.filter(status='Publish', condition='Old').order_by('-id')
 
 	else:
 		product_list = Product.objects.filter(status='Publish').order_by('-id')
