@@ -328,3 +328,9 @@
         modified:   README.md
         modified:   apps/store/views.py
         modified:   templates/store/product-list.html
+
+#### 11.5 Filtering display of the products based on a brand (products-by-brand)
+
+        modified:   README.md
+        modified:   apps/store/views.py
+        modified:   templates/store/product-list.html

@@ -39,6 +39,8 @@ def ProductList(request):
 	filter_price_id = request.GET.get('filter_price')
 	# Products-By-Color
 	color_id = request.GET.get('color')
+	# Products-By-Brand
+	brand_id = request.GET.get('brand')
 
 	if cat_id:
 		product_list = Product.objects.filter(category=cat_id, status='Publish')
@@ -49,11 +51,11 @@ def ProductList(request):
 	elif color_id:
 		product_list = Product.objects.filter(color=color_id, status='Publish')
 
+	elif brand_id:
+		product_list = Product.objects.filter(brand=brand_id, status='Publish')
+
 	else:
 		product_list = Product.objects.filter(status='Publish')
-
-	# Products-By-Price
-
 
 
 	context = {

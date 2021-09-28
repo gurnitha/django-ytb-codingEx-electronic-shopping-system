@@ -247,9 +247,9 @@
                                 <h4 class="sidebar-title">Brands</h4>
                                 <div class="sidebar-widget-brand">
                                     <ul>
-                                        <li><a href="#" class="">All Brands<span>(xx)</span></a></li>
+                                        <li><a href="/products" class="">All Brands<span>(xx)</span></a></li>
                                     	{% for brand_object in brand_objects %}
-                                        <li><a href="#" class="">{{brand_object.name}}<span>(x)</span></a></li>
+                                        <li><a href="/products/?brand={{brand_object.id}}" class="">{{brand_object.name}}<span>(x)</span></a></li>
                                     	{% endfor %}
                                     </ul>
                                 </div>
