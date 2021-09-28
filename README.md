@@ -441,3 +441,14 @@
         modified:   templates/base/base.html
 
 
+#### 13.7 Modal 5 - Loading images to modal quickView
+
+        modified:   README.md
+        modified:   templates/base/base.html
+
+        NOTE: Failed loading images
+
+        
+
+
+
