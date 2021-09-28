@@ -332,6 +332,7 @@
 
     <!-- ============================== Modal Quick view ====================================
         base: id="exampleModal" => product-list: data-bs-target="#exampleModal"-->
+    {% for product in product_objects %}
     <div 
         class="modal modal-2 fade" 
         id="quickView" 
@@ -390,10 +391,10 @@
                         </div>
                         <div class="col-lg-6 col-sm-12 col-xs-12" data-aos="fade-up" data-aos-delay="200">
                             <div class="product-details-content quickview-content">
-                                <h2>Modern Smart Phone</h2>
+                                <h2>{{product.name}}</h2>
                                 <div class="pricing-meta">
                                     <ul class="d-flex">
-                                        <li class="new-price">$20.90</li>
+                                        <li class="new-price">${{product.price}}</li>
                                     </ul>
                                 </div>
                                 <div class="pro-details-rating-wrap">
@@ -459,7 +460,7 @@
             </div>
         </div>
     </div>
-
+    {% endfor %}
     <!-- ============================== Modal Quick view end ====================================-->
 
     <!-- ============================== Modal Compare ===========================

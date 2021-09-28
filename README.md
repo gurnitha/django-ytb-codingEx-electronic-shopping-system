@@ -409,3 +409,14 @@
         modified:   templates/base/index.html
         new file:   templates/base/modal-actions.html
         modified:   templates/store/product-list.html
+
+
+#### 13.3 Modal 1 - Loading retrieved products to quickView modal
+
+        modified:   README.md
+        modified:   templates/base/base.html
+
+        NOTE:
+        1. quickView modal display the same product name and price of any product
+
+        NEXT > Add {{forloop.counter}} to modal id (#quickView)
