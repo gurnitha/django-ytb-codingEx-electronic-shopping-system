@@ -347,3 +347,11 @@
         modified:   README.md
         modified:   apps/store/views.py
         modified:   templates/store/product-list.html
+
+
+#### 12.2 SORT display of the products based on ALPHABETIC ORDER (Z to A)
+
+
+        modified:   README.md
+        modified:   apps/store/views.py
+        modified:   templates/store/product-list.html

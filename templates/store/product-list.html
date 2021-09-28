@@ -53,7 +53,12 @@
                                         		Name, A to Z
                                         	</a>
                                         </li>
-                                        <li><a class="dropdown-item" href="#">Name, Z to A</a></li>
+                                        <li>
+                                        	<a class="dropdown-item" 
+                                        		href="/products/{% for i in product_list_objects %}?ZtoA={{i.id}}{% endfor %}">
+                                        		Name, Z to A
+                                        	</a>
+                                        </li>
                                         <li><a class="dropdown-item" href="#">Price, low to high</a></li>
                                         <li><a class="dropdown-item" href="#">Price, high to low</a></li>
                                         <li><a class="dropdown-item" href="#">Sort By new</a></li>
