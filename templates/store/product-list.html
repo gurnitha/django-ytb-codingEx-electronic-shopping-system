@@ -71,8 +71,12 @@
                                         		Price, high to low
                                         	</a>
                                         </li>
-                                        <li><a class="dropdown-item" href="#">Sort By new</a></li>
-                                        <li><a class="dropdown-item" href="#">Sort By old</a></li>
+                                        <li>
+                                        	<a class="dropdown-item" 
+                                        		href="/products/{% for i in product_list_objects %}?new-product={{i.id}}{% endfor %}">
+                                        		Sort By New
+                                        	</a>
+                                        </li>
                                     </ul>
                                 </div>
                                 <!-- Single Wedge Start -->

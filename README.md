@@ -371,3 +371,11 @@
         modified:   README.md
         modified:   apps/store/views.py
         modified:   templates/store/product-list.html
+
+
+#### 12.5 SORT display of the products based on NEW PRODUCT (New Product)
+
+
+        modified:   README.md
+        modified:   apps/store/views.py
+        modified:   templates/store/product-list.html
