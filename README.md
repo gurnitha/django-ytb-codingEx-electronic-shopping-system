@@ -334,3 +334,16 @@
         modified:   README.md
         modified:   apps/store/views.py
         modified:   templates/store/product-list.html
+
+
+###----------------------------------------------------------------------
+### 12. SORT BY NAME: A-Z / Z-A, PRICE: LOW-HIGHT/HIGHT-LOW AND ETC 
+###----------------------------------------------------------------------
+
+
+#### 12.1 SORT display of the products based on ALPHABETIC ORDER (A to Z)
+
+
+        modified:   README.md
+        modified:   apps/store/views.py
+        modified:   templates/store/product-list.html

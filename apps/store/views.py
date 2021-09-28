@@ -41,6 +41,8 @@ def ProductList(request):
 	color_id = request.GET.get('color')
 	# Products-By-Brand
 	brand_id = request.GET.get('brand')
+	# Products-By-AtoZ
+	AtoZ_id = request.GET.get('AtoZ')
 
 	if cat_id:
 		product_list = Product.objects.filter(category=cat_id, status='Publish')
@@ -53,6 +55,9 @@ def ProductList(request):
 
 	elif brand_id:
 		product_list = Product.objects.filter(brand=brand_id, status='Publish')
+
+	elif AtoZ_id:
+		product_list = Product.objects.filter(status='Publish').order_by('name')
 
 	else:
 		product_list = Product.objects.filter(status='Publish')
