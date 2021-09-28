@@ -47,6 +47,8 @@ def ProductList(request):
 	ZtoA_id = request.GET.get('ZtoA')
 	# Products-By-PriceLowToHigh
 	price_low_to_high = request.GET.get('price-low-to-high')
+	# Products-By-PriceHighToLow
+	price_high_to_low = request.GET.get('price-high-to-low')
 
 	if cat_id:
 		product_list = Product.objects.filter(category=cat_id, status='Publish')
@@ -68,6 +70,9 @@ def ProductList(request):
 
 	elif price_low_to_high:
 		product_list = Product.objects.filter(status='Publish').order_by('price')
+
+	elif price_high_to_low:
+		product_list = Product.objects.filter(status='Publish').order_by('-price')
 
 	else:
 		product_list = Product.objects.filter(status='Publish')

@@ -65,7 +65,12 @@
                                         		Price, low to high
                                         	</a>
                                         </li>
-                                        <li><a class="dropdown-item" href="#">Price, high to low</a></li>
+                                        <li>
+                                        	<a class="dropdown-item" 
+                                        		href="/products/{% for i in product_list_objects %}?price-high-to-low={{i.id}}{% endfor %}">
+                                        		Price, high to low
+                                        	</a>
+                                        </li>
                                         <li><a class="dropdown-item" href="#">Sort By new</a></li>
                                         <li><a class="dropdown-item" href="#">Sort By old</a></li>
                                     </ul>

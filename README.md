@@ -363,3 +363,11 @@
         modified:   README.md
         modified:   apps/store/views.py
         modified:   templates/store/product-list.html
+
+
+#### 12.4 SORT display of the products based on PRICE (Price High to Low)
+
+
+        modified:   README.md
+        modified:   apps/store/views.py
+        modified:   templates/store/product-list.html
