@@ -433,3 +433,11 @@
 
         modified:   README.md
         modified:   templates/base/base.html
+
+
+#### 13.6 Modal 4 - Loading tags which has ManyToMany relationship with product
+
+        modified:   README.md
+        modified:   templates/base/base.html
+
+
