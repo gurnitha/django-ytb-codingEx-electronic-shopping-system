@@ -1,0 +1,42 @@
+<!-- templates/shared/modal-actions.html -->
+{% load static %}
+
+                            <div class="actions">
+
+                                <!-- Add to cart -->
+                                <button 
+                                    title="Add To Cart" 
+                                    class="action add-to-cart" 
+                                    data-bs-toggle="modal" 
+                                    data-bs-target="#addToCart">
+                                    <i class="pe-7s-shopbag"></i>
+                                </button>                                                           
+
+                                <!-- Wishlist -->
+                                <button 
+                                    title="Wishlist" 
+                                    class="action wishlist" 
+                                    data-bs-toggle="modal" 
+                                    data-bs-target="#Wishlist">
+                                    <i class="pe-7s-like"></i>
+                                </button>
+
+                                <!-- Quickview -->
+                                <button
+                                    title="Quick view" 
+                                    class="action quickview" 
+                                    data-link-action="quickview" 
+                                    data-bs-toggle="modal" 
+                                    data-bs-target="#quickView">
+                                    <i class="pe-7s-look"></i>
+                                </button>
+                                
+                                <!-- Compare -->
+                                <button 
+                                    title="Compare" 
+                                    class="action compare" 
+                                    data-bs-toggle="modal" 
+                                    data-bs-target="#Compare">
+                                    <i class="pe-7s-refresh-2"></i>
+                                </button>
+                            </div>

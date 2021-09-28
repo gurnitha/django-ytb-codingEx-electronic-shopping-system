@@ -387,3 +387,25 @@
         modified:   README.md
         modified:   apps/store/views.py
         modified:   templates/store/product-list.html
+
+
+###----------------------------------------------------------------------
+### 13. POP UP MODALS
+###----------------------------------------------------------------------
+
+
+#### 13.1 Modals actions housekeeping - re-arrange the sequance of the modals
+
+        modified:   README.md
+        modified:   templates/base/base.html
+        modified:   templates/base/index.html
+        modified:   templates/store/product-list.html
+
+
+#### 13.2 Create include file for modal actions
+
+        modified:   README.md
+        modified:   templates/base/base.html
+        modified:   templates/base/index.html
+        new file:   templates/base/modal-actions.html
+        modified:   templates/store/product-list.html

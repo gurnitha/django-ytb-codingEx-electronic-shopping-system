@@ -277,8 +277,66 @@
         </div>
         <!-- Footer Area End -->
     </div>
-    <!-- Modal -->
-    <div class="modal modal-2 fade" id="exampleModal" tabindex="-1" role="dialog">
+
+    <!-- ============================== Modal Add To Cart ==============================
+        base: id="exampleModal-Cart" => product-list: data-bs-target="#exampleModal-Cart"-->
+    <div 
+        class="modal customize-class fade" 
+        id="addToCart" 
+        tabindex="-1"   
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="pe-7s-close"></i></button>
+                    <div class="tt-modal-messages">
+                        <i class="pe-7s-check"></i> Added to cart successfully!
+                    </div>
+                    <div class="tt-modal-product">
+                        <div class="tt-img">
+                            <img src="{% static 'assets/images/product-image/1.webp' %}" alt="Modern Smart Phone">
+                        </div>
+                        <h2 class="tt-title"><a href="#">Modern Smart Phone</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- ============================== Modal Add To Cart end ==============================-->
+
+    <!-- ============================== Modal Wishlist ==========================
+        base: id="exampleModal-Wishlist" => product-list: data-bs-target="#exampleModal-Wishlist"-->
+    <div 
+        class="modal customize-class fade" 
+        id="Wishlist" 
+        tabindex="-1"   
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="pe-7s-close"></i></button>
+                    <div class="tt-modal-messages">
+                        <i class="pe-7s-check"></i> Added to Wishlist successfully!
+                    </div>
+                    <div class="tt-modal-product">
+                        <div class="tt-img">
+                            <img src="{% static 'assets/images/product-image/1.webp' %}" alt="Modern Smart Phone">
+                        </div>
+                        <h2 class="tt-title"><a href="#">Modern Smart Phone</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <!-- ============================== Modal Wishlist end ==========================-->
+
+    <!-- ============================== Modal Quick view ====================================
+        base: id="exampleModal" => product-list: data-bs-target="#exampleModal"-->
+    <div 
+        class="modal modal-2 fade" 
+        id="quickView" 
+        tabindex="-1" 
+        role="dialog">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -401,47 +459,16 @@
             </div>
         </div>
     </div>
-    <!-- Modal end -->
-    <!-- Modal Cart -->
-    <div class="modal customize-class fade" id="exampleModal-Cart" tabindex="-1"   aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-body text-center">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="pe-7s-close"></i></button>
-                    <div class="tt-modal-messages">
-                        <i class="pe-7s-check"></i> Added to cart successfully!
-                    </div>
-                    <div class="tt-modal-product">
-                        <div class="tt-img">
-                            <img src="{% static 'assets/images/product-image/1.webp' %}" alt="Modern Smart Phone">
-                        </div>
-                        <h2 class="tt-title"><a href="#">Modern Smart Phone</a></h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>     
-    <!-- Modal wishlist -->
-    <div class="modal customize-class fade" id="exampleModal-Wishlist" tabindex="-1"   aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-body text-center">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="pe-7s-close"></i></button>
-                    <div class="tt-modal-messages">
-                        <i class="pe-7s-check"></i> Added to Wishlist successfully!
-                    </div>
-                    <div class="tt-modal-product">
-                        <div class="tt-img">
-                            <img src="{% static 'assets/images/product-image/1.webp' %}" alt="Modern Smart Phone">
-                        </div>
-                        <h2 class="tt-title"><a href="#">Modern Smart Phone</a></h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>    
-    <!-- Modal compare -->
-    <div class="modal customize-class fade" id="exampleModal-Compare" tabindex="-1"   aria-hidden="true">
+
+    <!-- ============================== Modal Quick view end ====================================-->
+
+    <!-- ============================== Modal Compare ===========================
+        base: id="exampleModal-Compare" => product-list: data-bs-target="#exampleModal-Compare"-->
+    <div 
+        class="modal customize-class fade" 
+        id="Compare" 
+        tabindex="-1"   
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body text-center">
@@ -459,6 +486,8 @@
             </div>
         </div>
     </div>
+    <!-- ============================== Modal Compare end ===========================-->
+
     <!-- Global Vendor, plugins JS -->
     <!-- JS Files
     ============================================ -->
