@@ -420,3 +420,10 @@
         1. quickView modal display the same product name and price of any product
 
         NEXT > Add {{forloop.counter}} to modal id (#quickView)
+
+
+#### 13.4 Modal 2 - Adding {{forloop.counter}} to modal id (#quickView)
+
+        modified:   README.md
+        modified:   templates/base/base.html
+        modified:   templates/base/modal-actions.html

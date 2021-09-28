@@ -335,7 +335,7 @@
     {% for product in product_objects %}
     <div 
         class="modal modal-2 fade" 
-        id="quickView" 
+        id="quickView-{{forloop.counter}}" 
         tabindex="-1" 
         role="dialog">
         <div class="modal-dialog modal-dialog-centered" role="document">
